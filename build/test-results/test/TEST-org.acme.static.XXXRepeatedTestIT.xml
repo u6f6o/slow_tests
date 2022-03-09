@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.acme.static.XXXRepeatedTestIT" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-03-09T15:48:37" hostname="MB-07-P15.fritz.box" time="0.251">
+  <properties/>
+  <testcase name="repetition 1 of 2" classname="org.acme.static.XXXRepeatedTestIT" time="0.015"/>
+  <testcase name="repetition 2 of 2" classname="org.acme.static.XXXRepeatedTestIT" time="0.014"/>
+  <testcase name="repetition 1 of 6" classname="org.acme.static.XXXRepeatedTestIT" time="0.013"/>
+  <testcase name="repetition 2 of 6" classname="org.acme.static.XXXRepeatedTestIT" time="0.013"/>
+  <testcase name="repetition 3 of 6" classname="org.acme.static.XXXRepeatedTestIT" time="0.081"/>
+  <testcase name="repetition 4 of 6" classname="org.acme.static.XXXRepeatedTestIT" time="0.018"/>
+  <testcase name="repetition 5 of 6" classname="org.acme.static.XXXRepeatedTestIT" time="0.024"/>
+  <testcase name="repetition 6 of 6" classname="org.acme.static.XXXRepeatedTestIT" time="0.022"/>
+  <system-out><![CDATA[2022-03-09 16:48:37,938 INFO  [org.ecl.jet.ser.Server] (Test worker) jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.13+7-jvmci-20.3-b24
+2022-03-09 16:48:37,940 INFO  [org.ecl.jet.ser.han.ContextHandler] (Test worker) Started o.e.j.s.ServletContextHandler@726882da{/__admin,null,AVAILABLE}
+2022-03-09 16:48:37,941 INFO  [org.ecl.jet.ser.han.Con.ROOT] (Test worker) RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-03-09 16:48:37,941 INFO  [org.ecl.jet.ser.han.ContextHandler] (Test worker) Started o.e.j.s.ServletContextHandler@f0deba2{/,null,AVAILABLE}
+2022-03-09 16:48:37,942 INFO  [org.ecl.jet.ser.AbstractConnector] (Test worker) Started NetworkTrafficServerConnector@541d8a9e{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8082}
+2022-03-09 16:48:37,942 INFO  [org.ecl.jet.ser.Server] (Test worker) Started @10064ms
+2022-03-09 16:48:38,203 INFO  [org.ecl.jet.ser.AbstractConnector] (Test worker) Stopped NetworkTrafficServerConnector@541d8a9e{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8082}
+2022-03-09 16:48:38,203 INFO  [org.ecl.jet.ser.han.ContextHandler] (Test worker) Stopped o.e.j.s.ServletContextHandler@f0deba2{/,null,STOPPED}
+2022-03-09 16:48:38,204 INFO  [org.ecl.jet.ser.han.ContextHandler] (Test worker) Stopped o.e.j.s.ServletContextHandler@726882da{/__admin,null,STOPPED}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
