@@ -26,19 +26,19 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">3</div>
 <p>failures</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.726s</div>
+<div class="counter">1h0m19.52s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">89%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,45 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Ignored tests</a>
+</li>
+<li>
+<a href="#tab2">Packages</a>
+</li>
+<li>
+<a href="#tab3">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxIT.html">XxxxxxxxIT</a>.
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxIT.html#testHelloEndpoint()">testHelloEndpoint()</a>
+</li>
+<li>
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxIT.html">XxxxxxxxIT</a>.
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxIT.html#testHelloEndpointAgain()">testHelloEndpointAgain()</a>
+</li>
+<li>
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxxIT.html">XxxxxxxxxIT</a>.
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxxIT.html#testHelloEndpoint()">testHelloEndpoint()</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
+<h2>Ignored tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxxIT.html">XxxxxxxxxIT</a>.
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxxIT.html#testHelloEndpointAgain()">testHelloEndpointAgain()</a>
+</li>
+</ul>
+</div>
+<div id="tab2" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -79,19 +111,19 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
-<a href="packages/org.acme.static.html">org.acme.static</a>
+<td class="failures">
+<a href="packages/org.acme.quarkuslifecycle.html">org.acme.quarkuslifecycle</a>
 </td>
 <td>29</td>
-<td>0</td>
-<td>0</td>
-<td>2.726s</td>
-<td class="success">100%</td>
+<td>3</td>
+<td>1</td>
+<td>1h0m19.52s</td>
+<td class="failures">89%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab3" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -107,93 +139,93 @@
 <tbody>
 <tr>
 <td class="success">
-<a href="classes/org.acme.static.ARepeatedTestIT.html">org.acme.static.ARepeatedTestIT</a>
+<a href="classes/org.acme.quarkuslifecycle.ARepeatedTestIT.html">org.acme.quarkuslifecycle.ARepeatedTestIT</a>
 </td>
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>2.300s</td>
+<td>2.470s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="classes/org.acme.static.SecondIT.html">org.acme.static.SecondIT</a>
+<a href="classes/org.acme.quarkuslifecycle.SecondIT.html">org.acme.quarkuslifecycle.SecondIT</a>
 </td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.044s</td>
+<td>1.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="classes/org.acme.static.ThridIT.html">org.acme.static.ThridIT</a>
+<a href="classes/org.acme.quarkuslifecycle.ThridIT.html">org.acme.quarkuslifecycle.ThridIT</a>
 </td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.033s</td>
+<td>1.038s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="classes/org.acme.static.XXXRepeatedTestIT.html">org.acme.static.XXXRepeatedTestIT</a>
+<a href="classes/org.acme.quarkuslifecycle.XXXRepeatedTestIT.html">org.acme.quarkuslifecycle.XXXRepeatedTestIT</a>
 </td>
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.200s</td>
+<td>1.207s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="classes/org.acme.static.XxxxIT.html">org.acme.static.XxxxIT</a>
+<a href="classes/org.acme.quarkuslifecycle.XxxxIT.html">org.acme.quarkuslifecycle.XxxxIT</a>
 </td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.025s</td>
+<td>1.047s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="classes/org.acme.static.XxxxxIT.html">org.acme.static.XxxxxIT</a>
+<a href="classes/org.acme.quarkuslifecycle.XxxxxIT.html">org.acme.quarkuslifecycle.XxxxxIT</a>
 </td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.026s</td>
+<td>1.136s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="classes/org.acme.static.XxxxxxIT.html">org.acme.static.XxxxxxIT</a>
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxIT.html">org.acme.quarkuslifecycle.XxxxxxIT</a>
 </td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.026s</td>
+<td>1h0m1.02s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
-<a href="classes/org.acme.static.XxxxxxxxIT.html">org.acme.static.XxxxxxxxIT</a>
+<td class="failures">
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxIT.html">org.acme.quarkuslifecycle.XxxxxxxxIT</a>
 </td>
 <td>2</td>
+<td>2</td>
 <td>0</td>
-<td>0</td>
-<td>0.036s</td>
-<td class="success">100%</td>
+<td>10.588s</td>
+<td class="failures">0%</td>
 </tr>
 <tr>
-<td class="success">
-<a href="classes/org.acme.static.XxxxxxxxxIT.html">org.acme.static.XxxxxxxxxIT</a>
+<td class="failures">
+<a href="classes/org.acme.quarkuslifecycle.XxxxxxxxxIT.html">org.acme.quarkuslifecycle.XxxxxxxxxIT</a>
 </td>
 <td>2</td>
-<td>0</td>
-<td>0</td>
-<td>0.036s</td>
-<td class="success">100%</td>
+<td>1</td>
+<td>1</td>
+<td>0.002s</td>
+<td class="failures">0%</td>
 </tr>
 </tbody>
 </table>
@@ -206,7 +238,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.3.3</a> at 9 Mar 2022, 16:48:39</p>
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 10 Mar 2022, 15:15:52</p>
 </div>
 </div>
 </body>
